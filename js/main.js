@@ -6,7 +6,7 @@ document.write(x[1]);
 
 class test{
     say(){
-        console.log('say something!')
+        console.log('开哦！')
     }
 }
 

@@ -65,7 +65,7 @@
 	    _createClass(test, [{
 	        key: 'say',
 	        value: function say() {
-	            console.log('say something!');
+	            console.log('开哦！');
 	        }
 	    }]);
 
