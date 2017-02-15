@@ -11,31 +11,59 @@
 			-moz-box-sizing: border-box;
 			box-sizing: border-box;
 		}
-		.wrapper{
-			position: relative;
-			border:1px solid red;
-			width:100px;
-		}
-
-		.in{
-			position: relative;
+		.a{
 			height:100px;
 			width:100px;
+			position: absolute;
 			background: yellow;
 		}
-		.next{
-			word-break: break-all;
+		.a1{
 			position: absolute;
-			left:100px;
-			top:0;
+			height:20px;
+			width:20px;
+			background: red;
+			top:10px;
+			left: 10px;
+		}
+		dl{
+			line-height:36px;
+		}
+		dl dt{
+			font-size: 1.3em;
+			font-weight:500;
 		}
 	</style>
 </head>
 <body>
-<h3>超出容器的absolute元素的文字呈现方式</h3>
-<div class="wrapper">
-	<div class="in"></div>
-	<div class="next">absolute定位的超出的元素</div>
+
+<h3>absolute的定位属性先对与祖先级别的已定位元素</h3>
+<br>
+
+<div class="a">
+	<div class="a1"></div>
 </div>
 
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br>
+<h3>dl dt dd的使用</h3>
+<cite>dl dt dd</cite>
+<dl>
+	<dt>男士用品</dt>
+	<dd>剃须刀</dd>
+	<dd>洗发水</dd>
+	<dd>洗洁精</dd>
+	<dt>女士用品</dt>
+	<dd>剃须刀</dd>
+	<dd>洗发水</dd>
+	<dd>洗洁精</dd>
+	<dt>两性用品</dt>
+	<dd>剃须刀</dd>
+	<dd>洗发水</dd>
+	<dd>洗洁精</dd>
+
+</dl>
 </body>
