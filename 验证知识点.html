@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>验证知识点</title>
+	<style>
+		*{
+			margin:0;
+			padding:0;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+		.wrapper{
+			position: relative;
+			border:1px solid red;
+			width:100px;
+		}
+
+		.in{
+			position: relative;
+			height:100px;
+			width:100px;
+			background: yellow;
+		}
+		.next{
+			word-break: break-all;
+			position: absolute;
+			left:100px;
+			top:0;
+		}
+	</style>
+</head>
+<body>
+<h3>超出容器的absolute元素的文字呈现方式</h3>
+<div class="wrapper">
+	<div class="in"></div>
+	<div class="next">absolute定位的超出的元素</div>
+</div>
+
+</body>
