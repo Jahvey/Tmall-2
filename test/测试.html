@@ -91,7 +91,7 @@
 <script>
 	//小猫出现时候的动画函数
 	function animateCat(ele,topValue,aniTime){
-		//0、先把小猫身上的计数器进行清除
+		//0、先把小猫身上的计数器进行清除,防止多次触发时，setInterval回调函数的积累。
 		clearInterval(ele.timer)
 		//1、获取小猫的位置
 		var pos = parseInt(ele.offsetTop),
