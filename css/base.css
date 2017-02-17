@@ -102,7 +102,6 @@ header{
 	background:#FFF;
 	text-align:center;
 	-webkit-box-shadow:0 -2px 4px #dadada,2px 0 4px #dadada,0 2px 4px #dadada,-2px 0 4px #dadada;
-	-ms-box-shadow:0 -2px 4px #dadada,2px 0 4px #dadada,0 2px 4px #dadada,-2px 0 4px #dadada;
 	-moz-box-shadow:0 -2px 4px #dadada,2px 0 4px #dadada,0 2px 4px #dadada,-2px 0 4px #dadada;
 	-o-box-shadow:0 -2px 4px #dadada,2px 0 4px #dadada,0 2px 4px #dadada,-2px 0 4px #dadada;
 	display:none;
@@ -120,7 +119,6 @@ header{
 	top:13px;
 	left:33px;
 	z-index:20;
-	display:block;
 	width:10px;
 	height:10px;
 	border:transparent solid 10px;
