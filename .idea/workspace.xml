@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3c58ec43-eddc-4d42-a00e-6d2e915d5a73" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/弹出层.html" afterPath="$PROJECT_DIR$/test/弹出层.html" />
     </list>
     <ignored path="tianmao.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -308,12 +307,12 @@
       <workItem from="1487125732434" duration="28000" />
       <workItem from="1487125784380" duration="15385000" />
       <workItem from="1487207919035" duration="2704000" />
-      <workItem from="1487340870976" duration="1531000" />
+      <workItem from="1487340870976" duration="2385000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62189000" />
+    <option name="totallyTimeSpent" value="63043000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="281" y="59" width="1400" height="990" extended-state="0" />
